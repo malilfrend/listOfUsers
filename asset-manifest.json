@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/listOfUsers/static/css/main.cd5d95a0.css",
+    "main.js": "/listOfUsers/static/js/main.6aa80228.js",
+    "index.html": "/listOfUsers/index.html",
+    "main.cd5d95a0.css.map": "/listOfUsers/static/css/main.cd5d95a0.css.map",
+    "main.6aa80228.js.map": "/listOfUsers/static/js/main.6aa80228.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd5d95a0.css",
+    "static/js/main.6aa80228.js"
+  ]
+}
