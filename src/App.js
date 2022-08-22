@@ -3,7 +3,6 @@ import './index.scss';
 import { Success } from './components/Success';
 import { Users } from './components/Users';
 
-// Тут список пользователей: https://reqres.in/api/users
 
 function App() {
   const [users, setUsers] = useState([])
@@ -39,6 +38,7 @@ function App() {
   }
   const turnBack = () => {
     setSuccess(false)
+    setInvited([])
   }
   return (
     <div className="App">

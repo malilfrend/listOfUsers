@@ -1,6 +1,9 @@
 import React from 'react';
+import plus from './../../assets/plus.svg'
+import minus from './../../assets/minus.svg'
 
-export const User = ({userInfo, invited, addInInvited, isInvited}) => (
+export const User = ({userInfo, addInInvited, isInvited}) =>{
+  return (
   <li>
     <div>
       <img className="avatar" src={userInfo.avatar} alt="User" />
@@ -14,6 +17,7 @@ export const User = ({userInfo, invited, addInInvited, isInvited}) => (
         </p>
       </div>
     </div>
-    <img className="action" src={`/assets/${isInvited ? 'minus' : 'plus'}.svg`} alt="Action" onClick={() => {addInInvited(userInfo.id)}}/>
+    <img className="action" src={isInvited ? minus : plus} alt="Action" onClick={() => {addInInvited(userInfo.id)}}/>
   </li>
-);
+)
+}
